@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "author": "Você",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 40, "left": 0, "attrs": {} },
+    { "type": "wokwi-ethernet", "id": "eth", "top": 100, "left": 10, "attrs": { "sss": "DHCP" } },
+    {
+      "type": "wokwi-lcd2004",
+      "id": "lcd1",
+      "top": 25.6,
+      "left": 322.4,
+      "attrs": { "pins": "i2c" }
+    }
+  ],
+  "connections": [
+    [ "eth:10", "uno:10", "yellow", [] ],
+    [ "eth:11", "uno:11", "green", [] ],
+    [ "eth:12", "uno:12", "orange", [] ],
+    [ "eth:13", "uno:13", "blue", [] ],
+    [ "eth:GND", "uno:GND", "black", [] ],
+    [ "eth:5V", "uno:5V", "red", [] ],
+    [ "lcd1:GND", "uno:GND", "black", [] ],
+    [ "lcd1:VCC", "uno:5V", "red", [] ],
+    [ "lcd1:SDA", "uno:A4", "green", [] ],
+    [ "lcd1:SCL", "uno:A5", "blue", [] ]
+  ],
+  "dependencies": {}
+}
