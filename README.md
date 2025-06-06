@@ -1,0 +1,1 @@
+# GS-Hora-Da-Protecao-IA
