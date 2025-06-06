@@ -1,9 +1,9 @@
 # GS-Hora-Da-Protecao-IA# 
--Projeto: Simulador de Clima com Arduino, Ethernet e MQTT no Wokwi
+Projeto: Simulador de Clima com Arduino, Ethernet e MQTT no Wokwi
 
 ## Visão Geral
 
--Este projeto simula, no ambiente virtual **Wokwi**, um sistema embarcado baseado em **Arduino Uno**. Ele realiza a **publicação de dados de temperatura** via protocolo **MQTT**, exibe os dados em um **LCD I²C 20x4**, e simula o uso de um **shield Ethernet** para representar conectividade de rede.
+Este projeto simula, no ambiente virtual **Wokwi**, um sistema embarcado baseado em **Arduino Uno**. Ele realiza a **publicação de dados de temperatura** via protocolo **MQTT**, exibe os dados em um **LCD I²C 20x4**, e simula o uso de um **shield Ethernet** para representar conectividade de rede.
 
 ## Funcionalidades
 
